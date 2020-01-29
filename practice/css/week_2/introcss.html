@@ -1,0 +1,92 @@
+<!doctype html>
+
+<!-- Need language setting -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <!--- No need for meta tags since it's not being searched -->
+  <title>CSS practice page</title>
+ 
+  <!-- 3 ways for CSS to attach to HTML files:
+      CSS Inline, CSS Internal, and CSS External -->
+
+  <style>
+    body {
+      background-color:bisque;
+    }
+    p {
+      color: plum;
+      font-size: 100pt;
+      /*  comment format only inside CSS element */
+      /*  Should choose fonts that most computers use, and include fall-back options */
+      font-family: "Arial", "Helvetica";
+      /* border property */
+      border-width: 10px;
+      border-color: black;
+      border-style: dashed;
+      /* 
+      margin-top: 200px;
+      */
+      /* margin shorthand*: top, right, bottom, left */
+      margin: 50px 100px 25px 125px;
+
+      /* margin settings for left, right
+      margin: 50px, 100px;
+      */
+      
+      /* margin settings for all sides
+      margin: 25px;
+      */
+      /* most common rule for centering block-level elements
+      margin: 0 auto;
+      */
+
+      /* padding-top, padding-bottom, padding-left, padding-right, padding
+       */
+       padding: 30px 0;
+    }
+    h1 {
+      color: purple;
+      font-size: 40pt;
+      font-family: "Courier";
+      /* background color appears for whole h1 block, a whole line */
+      background-color: red;
+      /* block-level elements will by default take up the entire line
+         unless forced by the width rule to be different.              */
+      width: 400px;
+      height: 400px;
+      margin-bottom: 100px;
+      margin-left: 100px;
+      margin-right: 100px;
+      /* centering inline elements or block elements 
+        only for left and right, not top or bottom    */
+      /*
+      margin-left: auto;
+      margin-right: auto; 
+      */
+    }
+    img { 
+      /* specifying both height and width can skew image 
+         specify only height or only width will cause the 
+         other setting to be calculated automatically      */
+      height: 200px;
+      /* width: 100px; */
+      /* 640/960 */
+      /* border settings */
+      /* 
+      border-width: 30px;
+      border-style: solid; */
+      /* border setting shorthand for border width, color & style */
+      border: 50px blue solid;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>First time CSS settings used.</h1>
+  <p>This is my web page.</p>
+
+  <img src="donuts.jpg" alt="Donuts on a plate with a bottle of milk."/>
+</body>
+</html>
