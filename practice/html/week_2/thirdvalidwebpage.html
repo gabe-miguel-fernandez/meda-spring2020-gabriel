@@ -1,0 +1,90 @@
+<!-- Tells browser what HTML version to use. -->
+<!doctype html>
+
+<!-- Tells browser should contain All code. 
+     lang attribute is required             -->
+<html lang="en">
+<head>
+  <!-- highly recommended to specify char set -->
+  <meta charset="utf-8">
+
+  <!-- This text appears in browser tab -->
+  <title>The 3rd valid web page</title>
+  <meta name="description" content="Text that displays below link. Pop-up text?">
+  <meta name="author" content="SitePoint">
+  
+  <!-- This links to other files, e.g., *.css, to be loaded; 
+       use absolute or relative file paths                   -->
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+</head>
+<!-- Nothing should be outside <head> and <body> tags except comments. -->
+<body>
+    <nav>
+        <ul>
+          <li><a href="firstValidWebPage.html">Home</a></li>
+          <li><a href="secondValidWebPage.html">Second valid web page</a></li>
+          <li>Third valid web page</li>
+      </ul>
+    </nav>
+    <h1>This is my third page</h1>
+
+    <br><hr><br>
+    
+    <!-- extra whitespace is &npsp; HTML character code -->
+    <p>This contains an extra &nbsp; space</p>
+
+    <br><hr><br>
+    
+    <!-- definition listing -->
+    <dl>
+      <dt>Happy</dt>
+      <dd>Not sad</dd>
+      <dt>Sad</dt>
+      <dd>Not happy</dd>
+    </dl>
+
+    <br><hr><br>
+    
+    <!-- figure; most of time images are used instead of figure -->
+    <figure>
+      <img src="someimage.jpg" alt="Photo of science object" width="200" height="200"/>
+      <figurecaption>This is a caption for the figure's image.</figcaption>
+    </figurecaption>
+
+    <br><hr><br>
+
+    <!-- tables should be used only for tabular data
+         do not use for design. 
+         table elements: table, tr, td, thead, tbody  -->
+    <table>
+      <thead>
+        <tr>
+          <th>Employee Name</th>
+          <th>Age</th>
+          <th>Hair Color</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John</td>
+          <td>44</td>
+          <td>Red</td>
+        </tr>
+        <tr>
+          <td>Sue</td>
+          <td>34</td>  
+          <td>Blue</td>
+        </tr>
+        <tr>
+          <td>Eric</td>
+          <td>14</td>  
+          <td>Green</td>
+        </tr>
+      </tbody>
+
+    </table>
+    
+</body>
+
+</html>
