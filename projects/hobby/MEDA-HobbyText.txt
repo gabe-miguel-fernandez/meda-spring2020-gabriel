@@ -1,0 +1,47 @@
+I like to travel when I have free time and sufficient funds. That usually means I take a handful of trips domestically and internationally each year.  For each trip I become obsessed with research and planning to answer basic questions like these: When and how long I will visit? Where will I stay? What do I wish to do there? How will I get there and back?  The last question is regarding transportion, e.g., car, bus, train and/or plane, which is often a major expense. Depending upon the destination, travel time may require up to a full day, and typically it's not always a comfortable journey. I usually fly to my destinations, so I spend a lot of time researching which airlines fly there, what routes are available, the costs for different travel classes, e.g., premium economy and economy, which aircraft types are used on those routes, and the seat maps for those available aircraft.
+
+I favor two travel search engines, Google Flights and Kayak, for researching which airlines fly to my destination and when. Flights there or back may not be available for every day of the week, may have departures only during specific times of the day or night, and may have only seasonal service which means an airline will fly to a destination only part of the year. The minimum set of information needed by a travel search engine are departure city, destination city, departure date, return date. By default most travel search engines have "economy" selected for class of service, and "roundtrip" for type of airline ticket. These two parameters normally offer the cheapest ticket prices.
+
+An example of a trip that I wish to make is a 10-day roundtrip to Barcelona, Spain where I will arrive on Saturday, September 5, 2020, and return on Monday, September 14, 2020 in the "premium economy" travel class. I'll use Google Flights, which offers a simple user interface, to illustrate how I search for available flights and aircraft that offer the lowest ticket prices and the most comfortable seats. A basic search is outlined in the steps below:
+
+1. Navigate browser tab to Google Flights page.
+2. Enter the following settings on the specified search fields:
+   a. Ticket type = "Round trip"
+   b. Fare class = "Premium Economy"
+   c. Departure city = "San Francisco", often abbreviated using its 3-letter airport code, "SFO".
+   d. Destination city = "Barcelona", often abbreviated using its 3-letter airport code, "BCN".
+3. Analyze the search results to see which are the top three "Best departing flights" displayed at the top of the search results and what are the other departing flights listed below the top three flights.
+   a. Look at what the lowest fares listed.
+   		The lowest fares may be for itineraries with one or more stops, very long waits at connecting airports, and for departure times that are either very early in the day or very late at night.
+   b. Look at the estimated travel time for the lowest fares.
+   		The lowest fares may have the longest estimated travel times, i.e., the duration of time starting from the initial departure time and ending at the final arrival time. It should include time spent at any airports waiting for the connecting flight(s).
+   c. Check if a fare is "nonstop" or has one or more stops.
+   		Nonstop flights are the most desirable for most people because trips with connecting flights require hiking from one terminal gate to another at a connecting airport within the specified connection time. Catching a connecting flight on a domestic trip is simple; just walk from the arrival gate to the departure gate. International trips connecting at a foreign airport typically requires a security screening of you and your carry-on luggage, and a passport check in addition to hiking from one gate to another.
+   d. Check which airport(s) are used for the connecting flight(s) if the fare has one or more stops.
+   e. Click the down-arrow ("\/") link for a flight option to see its details which include departure and arrival times, airline name, aircraft  type, and ticket class.
+ 4. Click an outbound flight option.
+ 5. Click a return flight option.
+ 6. Analyze the selected itinerary which provides departure and return flight information as well as luggage restrictions.
+    a. Check if the desired travel class, "Premium Economy", is available for each leg the the journey.
+    b. Check if the aircraft listed are narrow body (single aisle) or wide body (two aisle) aircraft.
+    	The wide body planes may offer wider seats than narrow body planes, but not always depending upon the class of service.
+    c. Check if the layover time is not too short, e.g., less than 50 mins., or too long, e.g., ten hours.
+    	Minimum connection/transfers times vary by airport and airline
+ 7. Repeat steps 1 to 6 several times for different airlines and different travel dates to get an idea if lower prices, nonstop flights, the desired travel class and more desirable departure times are available.
+
+ Google Flights offers useful features like fare graphs to see if how airfares for the given destination vary up to nine to ten months in the future, and fare tracking to alert the user when the airfare is going up or down. I try to start checking airfares as soon as data is available, and buy my ticket at least three to five months before my departure date.  Depending upon the destination, ticket may be sold out months before departure especially during the summer and holiday months from mid-November to early January. Ticket prices can temporarily affected by airline sales, so fare tracking alerts can notify you of possible deals which depending upon the destination may occur unexpectedly or with some frequency if your destination is serviced by lots of airlines especially low-cost airlines like Norwegian or easyJet.
+
+---
+Links:
+* Google Flight, https://www.google.com/flights
+* Kayak, https://www.kayak.com/flights
+* Norwegian Air, https://www.norwegian.com/us/
+* easyJet, https://www.easyjet.com/en
+---
+Snapshots/photos:
+* Google Flights landing page
+* Kayak.com Flights landing page
+* Google Flights search page with search parameters
+* Google Flights search results page
+* Google Flights search results page with selected option
+* Google Flights itinerary page
