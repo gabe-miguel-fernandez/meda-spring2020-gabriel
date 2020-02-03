@@ -1,0 +1,79 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Layout</title>
+  <link rel="stylesheet" href="myspecialcss.css" />
+  <link rel="stylesheet" href="reset.css" />
+  
+
+  <style>
+      h1 {
+          font-size: 72px;
+      }
+      p {
+          font-size: 48px;
+          border: fuchsia 2px dashed;
+          width: 600px;
+          margin: 40px auto;
+      }
+  </style>
+</head>
+
+<body>
+  <!--- general have 1 child for body, which is container
+        div.                                              -->
+  
+  <!-- how to use div 
+       divs, block-level elements, are containers 
+       ids must be unique to that web page.       
+       basic rule is it cannot start with number;
+       cannot contain space; typically '-' but
+       can be '_'   -->
+  <!-- HTML5 elements is <header></header> -->
+  <div id="header">
+    <h1>This is the header title area</h1>
+    <p>This is the first div., header </p>
+  </div>
+  <div id="main">
+    <div class="odd">
+      <p>This is the second div. test</p>
+    </div>
+    <div class="even">
+
+    </div>
+    <div class="odd">
+
+    </div>
+    <div class="even">
+
+    </div>
+    <div class="odd">
+
+    </div>
+  </div>
+  <!-- HTML5 elements is <footer></footer> -->
+  <div id="footer">
+    <div class="footer-columns" id="footer-left"></div>
+    <div class="footer-columns" id="footer-center"></div>
+    <div class="footer-columns" id="footer-right"></div>
+    <p>This is the third div., footer </p>
+    <!-- &copy; is example of HTML character code -->
+    <p>&copy; 2020 <span id="myname">Gabriel</span> Fernandez </p>
+    <h6>This is really tiny text as well.</h6>
+    <div>
+      <h6>This is really tiny text.</h6>
+    </div>
+
+    <ul id="food-list">
+      <li>sushi</li><li>cat food</li><li>donuts</li><li>hamburger</li><li>fries</li><li>steak</li><li>algae</li><li>milkshake</li><li>sundae</li><li>malt</li><li>ice cream</li><li>bread</li>
+    </ul>
+    <div id="my-video">
+    <!--- -->
+      <iframe width="900" height="506" src="https://www.youtube.com/embed/x6G-3_Aasao" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+</body>
+</html>

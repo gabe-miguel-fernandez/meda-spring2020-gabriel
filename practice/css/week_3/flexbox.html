@@ -1,0 +1,55 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Flexbox Practice</title>
+
+  
+  <style>
+    #my-flexbox {
+        background-color: hotpink;
+        height: 500px;
+        display: flex;
+        flex-direction: row-reverse; /* default setting is row */
+
+        flex-direction: column; /* height is set by content */
+
+        flex-direction: column-reverse; /* height is set by content */
+    }
+    .flexbox-items {
+        background-color: lightpink;
+/*        flex-grow: 1;
+        flex-shrink: 1;  */
+        margin: 10px;
+    }
+    #special-item {
+/*        flex-grow: 2; */
+        flex-shrink: 2; 
+    }
+    #last-item {
+/*        flex-grow: 3; */
+    }
+  </style>
+
+</head>
+
+<body>
+  <div id="my-flexbox">
+    <div class="flexbox-items">
+        <p>Hello there! How are you? 1</p>
+    </div>
+    <div class="flexbox-items" id="special-item">
+        <p>Hello there! How are you? 2</p>
+    </div>
+    <div class="flexbox-items">
+        <p>Hello there! How are you? 3</p>
+    </div>
+    <div class="flexbox-items" id="last-item">
+        <p>Hello there! How are you? 4</p>
+    </div>
+  </div>
+
+</body>
+</html>

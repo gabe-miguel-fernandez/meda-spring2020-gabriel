@@ -1,0 +1,199 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Layout</title>
+
+  
+
+  <style>
+    /* most generic selector */
+    /* !important adds high number of points */
+    * {
+      font-family: "Monaco" !important;
+    }
+    /* background image */
+    body {
+      background-color: lightslategray;
+      background-image: url("bg.jpg");
+      background-size: cover;
+    }
+    /* child selection examples */
+    /* referencing by id; 
+       property settings are applied only to applicable 
+       children.
+    */
+
+    /* fallbacks for setting properties */
+    p {
+      color: blue;
+    }
+    #header {
+      background-color: chocolate;
+      width: 760px;
+      color: cornsilk;
+      padding: 60px;
+      margin: 80px;
+    }
+    /* specificity trumps order: 
+       ids, classes & elements
+       ids have values in 100s, classes in 10s and elements
+       in 1s.                                               */
+    #header h1 {
+      color: darkgray;
+    }
+    #main {
+      background-color: pink;
+      width: 880px;
+      color: black;
+      /*
+      height: 400px;
+      */
+      border: solid 10px green;
+      border-radius: 50px;
+      margin: 25px auto;
+      /*
+      padding-top: 25px;
+      */
+      padding-left: 0px;
+      /* latest rule/property setting wins */
+      background-color: yellow;
+      background-color: rgba(0, 0, 0, 0.5);
+
+    }
+    #main div {
+      height: 100px;
+      background-color: darksalmon;
+      background-image: url("bg-div.jpg");
+      background-size: cover;
+      border-radius: 15px;
+      /*
+      margin-bottom: 10px;
+      */
+      margin: 0 auto 10px auto;
+      width: 75%;
+      overflow: auto; /* auto will add scrollbars as needed*/
+    }
+
+    #main div p {
+      color: ghostwhite;
+      font-size: 40px;
+      font-family: "Arial";
+      margin: 20px;
+      
+    }
+    #main .even {
+      background-color: orange;
+    }
+    #main .odd {
+      background-color: hotpink;
+    }
+    #main div:nth-child(1) {
+      margin-top: 20px;
+    }
+
+    #footer {
+      background-color: black;
+      color: yellowgreen;
+      /*
+      padding: 40px;
+      */
+      width: 900px;
+      height: 400px;
+      margin: 0 auto; 
+    
+    
+    }
+    #footer p {
+      color: purple;
+    }
+    #footer h6 {
+      color: white;
+    }
+    #footer div h6 {
+      color: coral;
+    }
+    /* setting property by selectors */
+    #footer p span {
+      color: white;
+    }
+    /* setting property by id */
+    #myname {
+      color: black;
+    }
+    #food-list {
+      list-style-type:none;
+      background-color: greenyellow;
+      
+      width: 860px;
+      margin: 0 auto;
+    /*
+      padding-left:0;
+      */
+    }
+    #food-list li {
+      display:inline-block;
+      background-color:yellow;
+      margin: 10px;
+      /* 
+      margin: 10px 20px;
+      margin: 10px 20px 30px;
+      margin: 10px 20px 30px 40px;
+      */
+      /*
+      padding: 10px;
+      */
+      text-align: center;
+      width: 100px;
+      overflow: hidden;
+    }
+    div #my-video {
+      margin: 0 auto; /* need to give container a width; auto calculates free space */
+      width: 900px;
+    }
+  </style>
+</head>
+
+<body>
+  <!--- general have 1 child for body, which is container
+        div.                                              -->
+  
+  <!-- how to use div 
+       divs, block-level elements, are containers 
+       ids must be unique to that web page.       
+       basic rule is it cannot start with number;
+       cannot contain space; typically '-' but
+       can be '_'   -->
+  <!-- HTML5 elements is <header></header> -->
+  <div id="header">
+    <h1>This is the header title area</h1>
+    <p>This is the first div., header </p>
+  </div>
+  <div id="main">
+    <div class="odd">
+      <p>This is the second div. test</p>
+    </div>
+    <div class="even">
+
+    </div>
+    <div class="odd">
+
+    </div>
+    <div class="even">
+
+    </div>
+    <div class="odd">
+
+    </div>
+  </div>
+  <!-- HTML5 elements is <footer></footer> -->
+  <div class="footer-columns" id="footer-left">
+  </div>
+  <div class="footer-columns" id="footer-center"> 
+  </div>
+  <div class="footer-columns" id="footer-right">
+  </div>
+</body>
+</html>
