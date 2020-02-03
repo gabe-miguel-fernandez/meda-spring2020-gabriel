@@ -29,7 +29,7 @@
     #tools figure img {
       width: 500px;
     }
-    #flight-search figure img {
+    .flight-search img {
       width: 800px;
     }
     figcaption {
@@ -91,7 +91,7 @@
 
   <h2>Flight Tools for Travel Planning</h2>
   
-  <p>I like using two flight search services, <a href="https://www.google.com/flights" target="_target" >Google Flights</a> and <a href="https://www.kayak.com/flights" target="_blank">Kayak</a>, for researching which airlines fly to my destination and when. Flights there or back may not be available for every day of the week, and may have departures only during specific times of the day or night. Airlines may offer only seasonal service which means an airline will fly to a destination only part of the year. The minimum set of information needed by a travel search engine is departure city, destination city, departure date, and return date. By default, most travel search engines have "economy" selected for the class of service, and "roundtrip" for the type of airline ticket. These two parameters normally offer the cheapest ticket prices.</p>
+  <p>I like using two flight search services, <a href="https://www.google.com/flights" target="_blank" >Google Flights</a> and <a href="https://www.kayak.com/flights" target="_blank">Kayak</a>, for researching which airlines fly to my destination and when. Flights there or back may not be available for every day of the week, and may have departures only during specific times of the day or night. Airlines may offer only seasonal service which means an airline will fly to a destination only part of the year. The minimum set of information needed by a travel search engine is departure city, destination city, departure date, and return date. By default, most travel search engines have "economy" selected for the class of service, and "roundtrip" for the type of airline ticket. These two parameters normally offer the cheapest ticket prices.</p>
   <div id="tools">
     <figure>
       <img src="images/google-flights-default.png"
@@ -122,13 +122,11 @@
         <li><em>Departure date</em> = "<span>5 September 2020</span>"</li>
         <li><em>Return date</em> = "<span>14 September 2020</span>"</li>
       </ol>
-      <div id="flight-search">
-        <figure>
-          <img src="images/google-flights-search.gif"
+      <figure class="flight-search">
+        <img src="images/google-flights-search.gif"
              alt="Animation of Google Flights search page that shows how search parameters are entered.">
-          <figcaption>Entering search parameters on the Google Flights search page.</figcaption>
-        </figure>
-      </div>
+        <figcaption>Entering search parameters on the Google Flights search page.</figcaption>
+      </figure>
     </li>
     <li>Analyze the search results to see which are the top three "Best departing flights" displayed at the top of the search results, and what are the other departing flights listed below the top three flights.
       <ol>
@@ -143,14 +141,13 @@
           alt="Clickable down arrow button">) link for a flight option to see its details which include departure and arrival times, total travel time, airline name, aircraft type, and ticket class.</li>
       </ol>
     </li>
-    <li>Click an outbound flight, and then a return flight.</li>
-    <div id="flight-search">
-      <figure>
+    <li>Click an outbound flight, and then a return flight.
+      <figure class="flight-search">
         <img src="images/google-flights-select-flights.gif"
            alt="Animation of Google Flights search page that shows how to selecting outbound and return flights.">
         <figcaption>Selecting outbound and return flights on the Google Flights search page.</figcaption>
       </figure>
-    </div>
+    </li>
     <li>Analyze the selected itinerary which provides departure and return flight information as well as luggage restrictions.
       <ol>
         <li>Is the desired travel class, "Premium Economy", available for each leg of the journey?</li>
@@ -159,14 +156,12 @@
         <li>Is there a connecting flight? If so, is the connection time is short, e.g., less than 50 mins., or long, e.g., ten hours?<br>
           <p>Minimum connection or transfer times vary by airport and airline. Conde Nast Traveler magazine explains this common concern in this <a href="https://www.cntraveler.com/story/what-is-a-layover-connecting-flights" target="_blank">2018 article</a>.</p></li>
       </ol>
-    </li>
-    <div id="flight-search">
-      <figure>
+      <figure class="flight-search">
         <img src="images/google-flights-selected-itinerary.png"
-           alt="Google Flights itinerary page showing details of outbound flights.">
+            alt="Google Flights itinerary page showing details of outbound flights.">
         <figcaption>Details of outbound flights on Google Flights itinerary page.</figcaption>
       </figure>
-    </div>
+    </li>
     <li>Repeat steps 1 to 6 several times for different airlines and different travel dates to get an idea if lower prices, nonstop flights, the desired travel class and more desirable departure times are available.</li>
   </ol>
 
@@ -195,15 +190,15 @@
   </ul>
   Images/Photos:
   <ul>
-    <li>Shanghai photo, <a href="https://www.pexels.com/photo/architecture-buildings-city-city-lights-345162" target="_target" >Pexels</a></li>
-    <li>Berlin Wall photo, <a href="https://www.pexels.com/photo/man-wearing-black-waistcoat-and-white-tank-tops-standing-near-a-mural-234315" target="_target" >Pexels</a></li>
-    <li>Haute cuisine dish photo, <a href="https://www.pexels.com/photo/artistic-beef-cuisine-delicious-341048" target="_target" >Pexels</a></li>
-    <li>Google Flights landing page, <a href="images/google-flights-default.png" target="_target">"images/google-flights-default.png"</a> </li>
-    <li>Kayak.com Flights landing page, <a href="images/kayak-flights-default.png" target="_target">"images/kayak-flights-default.png"</a></li>
-    <li>Searching for flights on Google Flights search results page, <a href="images/google-flights-search.gif" target="_target">"images/google-flights-search.gif"</a></li>
-    <li>Down arrow button on Google Flights search results page, <a href="images/down-arrow.png" target="_target">"images/down-arrow.png"</a></li>
-    <li>Selecting flights on Google Flights search results page, <a href="images/google-flights-select-flights.gif" target="_target">"images/google-flights-select-flights.gif"</a></li>
-    <li>Outbound flights for selected itinerary on Google Flights page, <a href="images/google-flights-selected-itinerary.png" target="_target">"images/google-flights-selected-itinerary.png"</a></li>
+    <li>Shanghai photo, <a href="https://www.pexels.com/photo/architecture-buildings-city-city-lights-345162" target="_blank" >Pexels</a></li>
+    <li>Berlin Wall photo, <a href="https://www.pexels.com/photo/man-wearing-black-waistcoat-and-white-tank-tops-standing-near-a-mural-234315" target="_blank" >Pexels</a></li>
+    <li>Haute cuisine dish photo, <a href="https://www.pexels.com/photo/artistic-beef-cuisine-delicious-341048" target="_blank" >Pexels</a></li>
+    <li>Google Flights landing page, <a href="images/google-flights-default.png" target="_blank">"images/google-flights-default.png"</a> </li>
+    <li>Kayak.com Flights landing page, <a href="images/kayak-flights-default.png" target="_blank">"images/kayak-flights-default.png"</a></li>
+    <li>Searching for flights on Google Flights search results page, <a href="images/google-flights-search.gif" target="_blank">"images/google-flights-search.gif"</a></li>
+    <li>Down arrow button on Google Flights search results page, <a href="images/down-arrow.png" target="_blank">"images/down-arrow.png"</a></li>
+    <li>Selecting flights on Google Flights search results page, <a href="images/google-flights-select-flights.gif" target="_blank">"images/google-flights-select-flights.gif"</a></li>
+    <li>Outbound flights for selected itinerary on Google Flights page, <a href="images/google-flights-selected-itinerary.png" target="_blank">"images/google-flights-selected-itinerary.png"</a></li>
   </ul>
 </div>
   
