@@ -74,7 +74,7 @@
       */
       margin: 0 auto 10px auto;
       width: 75%;
-      overflow: auto;
+      overflow: auto; /* auto will add scrollbars as needed*/
     }
 
     #main div p {
@@ -119,6 +119,18 @@
     #footer p span {
       color: white;
     }
+    #footer .footer-columns {
+      width: 290px;  /* % of parent's width */
+      height: 200px; /* normally don't want height specified */
+      background-color: darkorchid;
+      display: inline-block;
+      margin: 1px;
+    }
+    /* slightly harder to maintain
+    #footer-left, #footer-right, #footer-center {
+
+    }
+    */
     /* setting property by id */
     #myname {
       color: black;
@@ -190,6 +202,9 @@
   </div>
   <!-- HTML5 elements is <footer></footer> -->
   <div id="footer">
+    <div class="footer-columns" id="footer-left"></div>
+    <div class="footer-columns" id="footer-center"></div>
+    <div class="footer-columns" id="footer-right"></div>
     <p>This is the third div., footer </p>
     <!-- &copy; is example of HTML character code -->
     <p>&copy; 2020 <span id="myname">Gabriel</span> Fernandez </p>
@@ -205,6 +220,6 @@
     <!--- -->
       <iframe width="900" height="506" src="https://www.youtube.com/embed/x6G-3_Aasao" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-  </div>
+  <//div>
 </body>
 </html>
