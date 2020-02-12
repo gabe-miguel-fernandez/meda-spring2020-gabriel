@@ -1,0 +1,26 @@
+table {
+    border: 1px #333;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    width: 700px;
+}
+thead tr:nth-child(1) th {
+    background-color: gray;
+}
+thead tr th {
+    background-color: teal;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    
+}
+tbody > tr {
+    height: 25px;
+}
+tbody > tr > th {
+    background-color: darkgray;
+}
+tbody > tr > td {
+    background-color: lightgray;
+    text-align: center;
+}

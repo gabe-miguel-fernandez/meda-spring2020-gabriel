@@ -1,0 +1,177 @@
+body {
+    background-color: red;
+}
+
+/* 
+ *  HEADER STYLES START
+ */
+header, main, footer {
+    width: 900px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 50px;
+    font-size: 36px;
+}
+header, main {
+    border-bottom: red 5px solid;
+}
+header {
+    padding-right: 0;
+    width: 950px;
+}
+header h1 {
+    color: red;
+    font-family: "Zapfino";
+    font-size: 48px;
+    line-height: 84px;
+    text-align: center;
+    
+}
+nav ul {
+    text-align: right;
+}
+nav ul li {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    font-family: "Arial";
+    margin-top: 25px;
+    padding: 12px;
+    text-transform: uppercase;
+    
+}
+nav ul li a {
+    text-decoration: none;  /* get rid of underline */
+}
+/* nav ul li a:link, nav ul li a:visited {  */
+nav ul li a:link { 
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:visited {
+    text-decoration: none;
+}
+nav ul li:hover {
+    background-color: coral;
+    text-decoration: purple dotted line-through;
+}
+/* don't change size with hover 
+   you can bold or hide         */
+nav ul li a:hover {
+/*    color: green;  */
+/*    font-size: 100px; */
+/*    background-color: yellow;  */
+} 
+nav ul li a:active {
+   /* text-decoration: none;  */
+    color: yellowgreen;
+}
+
+#custom-height {
+    line-height: 72px;
+}
+#logo {
+    float: left;
+}
+#title-container {
+/*    float: right; */
+    margin-left: 200px; 
+}
+
+/* 
+ *  HEADER STYLES END
+ */
+/* 4 pseudo-classes:
+    :link (default)
+    :active (holding down link)
+    :hover (when mouse pointer over link)
+    :visited (previously visited links appear in purple)
+
+    Also, selector:pseudo-class & selector::pseudo-element
+ */
+
+ /* 
+ *  FOOTER STYLES START
+ */
+footer {
+    color: red;
+    font-family: "Arial";
+    line-height: 48px;
+}
+#copyright {
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+footer section ul {
+    text-align: right;
+
+}
+footer section ul li {
+    display: inline-block;
+/*    padding: 10px; */
+}
+/*
+footer section ul li:hover {
+    color: white;
+    background-color: red;
+}
+*/
+#social-links ul:hover {
+    text-align: right;
+    color: greenyellow;
+}
+#social-links ul li {
+    display: inline-block;
+/*    border: solid 1px red;
+    border-radius: 10px;
+    padding: 10px;
+*/
+   line-height: 100%;
+   overflow: auto;
+   box-sizing: border-box;
+}
+#social-links ul li:hover {
+    color: blue;
+    background-color: blueviolet;
+}
+#social-links ul li a {
+    text-decoration: none;
+    color: green;
+    background-color: goldenrod;
+    padding: 8px;
+}
+#social-links ul li a:link {
+    text-decoration: none;
+    color: green;
+    background-color: goldenrod;
+}
+#social-links ul li a:visited {
+    color: gray;
+}
+/*
+#social-links ul li a:hover {
+    color: pink;
+}
+*/
+
+ /* 
+ *  FOOTER STYLES END
+ */
+
+ /* MAIN DEFAULT STYLES - START */
+
+ main {
+    font-family: "Arial";
+    color: red;
+ }
+
+ main h1 {
+    font-style: 48px;
+    text-align: center;
+    text-transform: uppercase;
+ }
+ main p {
+     font-size: 24px;
+ }
+ /* MAIN DEFAULT STYLES - END */
