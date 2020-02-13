@@ -131,10 +131,6 @@ footer section ul li:hover {
    overflow: auto;
    box-sizing: border-box;
 }
-#social-links ul li:hover {
-    color: blue;
-    background-color: blueviolet;
-}
 #social-links ul li a {
     text-decoration: none;
     color: green;
@@ -154,6 +150,10 @@ footer section ul li:hover {
     color: pink;
 }
 */
+#social-links ul li a:hover {
+    color: blue;
+    background-color: blueviolet;
+}
 
  /* 
  *  FOOTER STYLES END
@@ -165,13 +165,64 @@ footer section ul li:hover {
     font-family: "Arial";
     color: red;
  }
-
  main h1 {
-    font-style: 48px;
+    font-family: "Zapfino";
+    font-style: 36px;
+    line-height: 80px;
+    margin-top: 30px;
     text-align: center;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
+ /*    margin: 20px 0; */
  }
  main p {
      font-size: 24px;
  }
  /* MAIN DEFAULT STYLES - END */
+
+
+ /* HOMEPAGE STYLE - START */
+
+ main#homepage p {
+    line-height: 30px;
+    margin: 20px;
+    text-align: justify;
+ }
+ /* HOMEPAGE STYLE - END */
+
+  /* GALLERY STYLE - START */
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+/*    flex-flow: column; */
+    justify-content: space-between;
+    margin-top: 10px;
+ }
+#gallery div {
+     width: 200px;
+/*     height: 500px; */
+}
+#gallery div img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+ /* GALLERY STYLE - END */
+
+
+/* CONTACT STYLE - START */
+#contact-flexbox {
+    display: flex;
+    /* bad idea to specify container height; using height for testing */
+    height: 300px;
+}
+#contact-flexbox div:first-child {
+    flex-grow: 3;
+    /* highlights container for testing */
+    background-color: purple;
+}
+#contact-flexbox div:last-child {
+    flex-grow: 1;
+    /* highlights container for testing */
+    background-color: silver;
+}
+/* CONTACT STYLE - END */
