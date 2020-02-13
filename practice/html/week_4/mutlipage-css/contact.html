@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>SF Posh Gallery | Homepage</title>
+  <title>SF Posh Gallery | Contact</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1" >
   <link rel="stylesheet" type="text/css" href="styles/reset.css">
@@ -34,13 +34,21 @@
   </header>
 
   <!-- Holds main content of web page -->
-  <main id="homepage">
-    <h1>Welcome</h1>
-    <p>Random text goes here. Random text goes here. Random text goes here. Random text goes here. Random text goes here. Random text goes here. Random text goes here. Random text goes here. Random text goes here.</p>
-    <p>Random text goes here. Random text goes here. Random text goes here. Random text goes here. Random text goes here. Random text goes here. Random text goes here. Random text goes here. Random text goes here.</p>
-    <h1>The coolest place on Earth</h1>
-    <p>Random text goes here. Random text goes here. Random text goes here. Random text goes here. Random text goes here. Random text goes here. Random text goes here. Random text goes here. Random text goes here.</p><h1>Low price of $15,000 a month</h1>
-    <p>Random text goes here. Random text goes here. Random text goes here. Random text goes here. Random text goes here. Random text goes here. Random text goes here. Random text goes here. Random text goes here.</p>
+  <main id="contact">
+    <div id="contact-flexbox">
+      <!-- div:first-child selects the following: -->
+      <div>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name"/><br />
+          <input type="text"/><br />
+          <input type="text"/><br />
+          <textarea></textarea>
+        </form>
+      </div>
+      <!-- div:last-child selects the following: -->
+      <div></div>
+    </div>
 
   </main>
   <footer>
@@ -50,8 +58,8 @@
     <aside></aside>
     <section id="social-links">
       <ul>
-        <li><a href="https://www.github.com" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
-        <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+        <li><a href="https://www.github.com" target="_blank"><i class="fab fa-github"></i>GitHub</a></li>
+        <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i>Instagram</a></li>
         <li><a href="https://www.flickr.com" target="_blank"><i class="fab fa-flickr"></i>Flickr</a></li>
       </ul>
     </section>
