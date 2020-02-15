@@ -1,79 +1,147 @@
-Portfolio Preparations
+Portfolio Website Specifications
 
-A.      Portfolio Website Specification
-A.1     Colors Used
-A.1.a   Background Color(s)
+A.      Colors To Use
+
+My initial color design decision is to use mostly black and white in most of my pages because that's the simplest choice and probably the least aesthetically offensive to most people. The background will use a shade of white, whitesmoke, that should not be as bright or intense as standard white. The text will be black unless it's use for a link, and then it will appear as described below.
+
+The colors used for text with links will be one of four colors (red, orange, white or crimson) depending upon the state of the link (e.g., hovering and visited). For text-based links, the text color will change depending upon the link's state (hovering, unvisited, active or visited) as specified below. For icon-based link, the solid areas of the image will change per the link's state, but if that cannot be implemented, then the background color of the icon will change to reflect the link's state.
+
+A.1     Background Color(s)
 
 "Whitesmoke" because it's clean and simple but not as bright as plain "white".
 
-A.1.b   Text Color(s)
+A.2.    Text Color(s)
 
-"Black" for content and basic titles
+"Black" for content (or body text) and titles (or headers)
 
-A.1.c.1 Header Text Color(s)
+A.2.a.  Header Text Color(s)
 
-"Black" for content and basic titles
+"Black" for content and titles
 
-A.1.c.2 Body Text Color(s)
+A.2.b.  Body Text Color(s)
 
-"Black" for content and basic titles
+"Black" for content and titles
 
-A.1.d.3 Link Text Color(s)
+A.2.c.  Footer Text Color(s)
 
-"Red" for hovering over link.
-"Orange" for visited link.
-"White" for unvisited link.
-"Crimson" for active link.
+"Black" for content and titles
 
-A.2     Text to Use
+A.2.d.  Link Text Color(s)
 
-A.2.a.  Font Family
+The color for the link's text will change to reflect the link's state as specified below.
 
-"Verdana, Geneva, sans-serif" because it looks clean and simple, plus it's considered a web safe font; see https://www.w3schools.com/cssref/css_websafe_fonts.asp for details.
+* "Red" for hovering over link.
+* "Orange" for visited link.
+* "White" for unvisited link.
+* "Crimson" for active link.
 
-A.3     Images & Photos to Use
-A.3.a   Icons
-A.3.a.1 Licensing Info
-A.3.b   Portrait Photo to Use (REQ: Minimum)
-A.3.b.1 Licensing Info
-A.3.c   Photo X (TO BE DETERMINED)
-A.3.c.1 Licensing Info
-A.4     Site Map
-A.4.a   Document file is named "sitemap.xxx" with applicable file extension.
-A.4.b   Document file contain specs for site pages.
-A.4.b.1 Contains specs of "Home" page
-A.4.b.2 Contains specs for "Projects" page (REQ: Minimum) 
-A.4.b.3 Contains specs for "Contact" page (REQ: Minimum) 
-A.4.b.4 Contains specs for "About Me" page (REQ: Minimum)
-A.5     Web Page Wireframes
-A.5.a   Home Page Wireframe
-A.5.a.1 File named "wireframe_home.xxx"
-A.5.b   Projects Page Wireframe
-A.5.b.1 File named "wireframe_projects.xxx"
-A.5.c   Contact Page Wireframe
-A.5.c.1 File named "wireframe_contact.xxx"
-A.5.d   About Me Page Wireframe
-A.5.d.1 File named "wireframe_aboutme.xxx"
-A.6     Web Page Text/Content
-A.6.a   HOME PAGE 
-A.6.b   PROJECTS PAGE
-A.6.c   CONTACT PAGE
-A.6.d   ABOUT PAGE
-A.6.d.1 Contains at least 2 paragraphs.
-A.6.d.2 Résumé PDF file
-A.6.e   PAGE_NAME X (TO BE DETERMINED)
-A.7     Example Portfolio Websites
-A.7.a   Portfolio Website One
-A.7.a.1 Portfolio Website One URL
+A.3.    Link Icon Color(s)
+
+The color of the link's icon will either have its solid area color or its background color change to reflect the link's state as specifed below. I prefer the first behavior, but I do not know if and how color can be changed for the icon glyphs from Font Awesome's icon glyphs.
+
+* "Red" for hovering over link.
+* "Orange" for visited link.
+* "White" for unvisited link.
+* "Crimson" for active link.
+
+A.4.    Border Color
+
+"Black" for any header, body and footer borders as well as rectangular borders around text-based links, and icon-based links.
+
+B.      Text to Use
+
+B.1.    Font Family
+
+"Verdana, Geneva, sans-serif" because it looks clean and simple; plus it's considered a web safe font; see https://www.w3schools.com/cssref/css_websafe_fonts.asp for details.
+
+C.      Images & Photos to Use
+
+C.1.    Icons
+
+I plan to use free Font Awesome fonts/icons that represent social media companies like Twitter. The Footer section specified in the wireframe for my four web pages show four places for social media icon with links. I currently plan to use these four free, open source, solid icons for social media:
+(1) Twitter, f099, <i class="fab fa-twitter"></i>
+(2) Instagram, f955, <i class="fab fa-instagram-square"></i>
+(3) GitHub, f092, <i class="fab fa-github-square"></i>
+(4) Facebook, f082, <i class="fab fa-facebook-square"></i>
+
+These icons will be used in the footer of each web page for the social media icon links.
+
+C.1.a.  Licensing Info
+
+Font Awesome's free open source icons for use in my class project (i.e., not for commercial use, or distribution) appears to allow me free use of the solid free icons. The applicable information regarding licensing for use in my class project can be found below:
+* https://fontawesome.com/support#fa-opensource
+* https://fontawesome.com/how-to-use/on-the-web/setup/getting-started
+
+C.2.    Portrait Photo to Use (REQ: Minimum)
+
+My personal face/portrait photo, portrait.jpg, will appear in the header of each web page.
+
+C.2.a.  Licensing Info
+
+Since I created my personal face/portrait photo, it has no licensing restrictions for my own use.
+
+D.      Web Page Text/Content
+
+D.1.    HOME PAGE
+
+Welcome
+
+I'm Gabriel Fernandez. This is my first attempt at an online portfolio so my personal information may not fit neatly into the following pages that describe me and my life. My main goal for this portfolio site is to expand my knowledge of front-end web design in a reasonably elegent but simple manner. Please bear with me as my portfolio evolves in content and presentation. 
+
+D.2.    PROJECTS PAGE
+
+Coding:
+
+C#, Java, Perl, Ruby, UNIX Shell
+
+Projects/Deliverables:
+
+I tested/verified products and features that involve: e-commerce retail websites and services, legal e-discovery SAAS, payroll SAAS, data-loss prevention applications.
+
+D.3.    CONTACT PAGE
+
+Email: gabe.miguel.fernandez@gmail.com
+
+Phone: 415-555-1212
+
+Mail: P. O. Box 7299, Menlo Park, CA 94026
+
+D.4.    ABOUT ME PAGE
+
+D.4.a.  Contains at least 2 paragraphs.
+
+Hobbies/Interests:
+
+Travel is a minor obsession of mine. I frequently monitor online travel forums for airfare sales, and for ideas about places to visit and events to attend. I have only visited five of the seven continents; Africa and Antarctica are still on my bucket list of places to visit. Of course, there are plenty of countries left for me to visit even briefly. My travel plans are influenced by my free time, available funds, estimated costs and perceived personal safety for tourists at place that I wish to visit.
+
+My interest in learning foreign languages goes well with my interest in travel, but the time spent learning is restricted by my available free time, cost of language learning material and the difficulty of learning a particular language. I find some languages easier to learn than others. In the past few years, streaming services like Netflix have offered foreign tv shows and movies that allow me to practice hearing other language, but I often lack a structured learning approach in those situations. I also listen to podcasts in other languages that may cover current news or describe cultural topics. Since I favor free podcasts, my choices are more limited.
+
+*For skills and experience, please check out my Projects page and my résumé that's linked below.
+
+Education:
+
+I listed my college degree below, but I have attended other programs and courses that did not result in a degree or certificate. My formal education also includes taking programming and linguistics courses at San Jose State University in San Jose, CA for two years, attending a German language summer program at Reed College in Portland, OR, a German language summer program at the Goethe Institute in Goettingen, Germany, and a French langauge summer program at McGill University in Montreal, Canada.
+
+B.A., Mathematics, College of the Holy Cross, Worcester, MA
+
+D.4.b.  Résumé PDF file
+
+GabrielFernandez_Resume_2019Nov12.pdf 
+
+E.      Example Portfolio Websites
+
+E.1.    Portfolio Website One
+
+E.1.a.  Portfolio Website One URL
 
 https://bahaasamir.me/
 
-A.7.a.2 Portfolio Website One Likes
+E.1.b.  Portfolio Website One Likes
 
 I like the social links are centered at bottom of page.
 I like the 3 options on menu page for links to "About", "Contact" and "Home" pages.
 
-A.7.a.3 Portfolio Website One Dislikes
+E.1.c.  Portfolio Website One Dislikes
 
 I don't like the mouse pointer on the web page shape of dot within a circle.
 I don't like the dark background.
@@ -82,69 +150,71 @@ I don't like how the text for the social links at the bottom
 A few seconds delay in loading initial/landing page.
 I don't like how text for links uses san serif but text for links to other portfolio pages uses serif.
 
-A.7.a.4 Portfolio Website One Header
+E.1.d.  Portfolio Website One Header
 
 Found several containers for the header area but some were not labeled with any name similiar to "header", e.g., "menu" or "menu_footer"; a bit confusing.
 
-A.7.a.5 Portfolio Website One Body
+E.1.e.  Portfolio Website One Body/Main
 
 Found body and its many elements with "aside" elements.
 
-A.7.a.6 Portfolio Website One Footer
+E.1.f.  Portfolio Website One Footer
 
 Footer information didn't contain the social links I expected. An element in the body contain the social links.
 
-A.7.b   Portfolio Website Two
-A.7.b.1 Portfolio Website Two URL
+E.2.    Portfolio Website Two
+
+E.2.a.  Portfolio Website Two URL
 
 https://jglover.space/
 
-A.7.b.2 Portfolio Website Two Likes
+E.2.b.  Portfolio Website Two Likes
 
 Simple one page design that had links to external sites.
 
-A.7.b.3 Portfolio Website Two Dislikes
+E.2.c.  Portfolio Website Two Dislikes
 
 I hate the monospaced font; looks odd to me.
 I hate the black and purple color scheme; looks too dark and depressing.
 
-A.7.b.4 Portfolio Website Two Header
+E.2.d.  Portfolio Website Two Header
 
 Nav container is used for header to contain links to other web sites or to other sections on homepage.
 Easily found head element with header content.
 
-A.7.b.5 Portfolio Website Two Body
+E.2.e.  Portfolio Website Two Body/Main
 
 Body was clearly named and easy to find.
 
-A.7.b.6 Portfolio Website Two Footer
+E.2.f.  Portfolio Website Two Footer
 
 Footer was clearly marked and easy to analyze.
 
-A.7.c   Portfolio Website Three
-A.7.c.1 Portfolio Website Three URL
+E.3.    Portfolio Website Three
+
+E.3.a.  Portfolio Website Three URL
 
 http://www.benjohnsmith.com/
 
-A.7.c.2 Portfolio Website Three Likes
+E.3.b.  Portfolio Website Three Likes
 
 Initial "preload" page  displays messages/sayings while web page is loading.
 I like the "Josefin san" font used.
 
-A.7.c.3 Portfolio Website Three Dislikes
+E.3.c.  Portfolio Website Three Dislikes
 
 Takes more than a few seconds to load; lots of images and other graphic elements must slow down loading.
 I like the links at the top of header for sections of homepage.
 Sometimes shows loading "quotes" without stopping; need to navigate to site with new tab if that happens.
 
-A.7.c.4 Portfolio Website Three Header
+E.3.d.  Portfolio Website Three Header
 
 Didn't find any "header" elements that were clearly labelled but the "navigation buttons" class seemed to act as part of header; maybe "fragment-head" class is the true header?
 
-A.7.c.5 Portfolio Website Three Body
+E.3.e.  Portfolio Website Three Body/Main
 
 Body appears to be broken up into "fragment-*" classes that contain information like "Projects", "Interface" and "Web Design".
 
-A.7.c.6 Portfolio Website Three Footer
+E.3.f.  Portfolio Website Three Footer
 
 "fragment-foot" class appears to be the footer that contains links to external social sites.

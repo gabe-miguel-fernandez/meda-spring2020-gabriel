@@ -35,19 +35,43 @@
 
   <!-- Holds main content of web page -->
   <main id="contact">
+    <h1>Contact US! Only $5.99 + S@H + Tax 0.11% per message.</h1>
+    <hr />
     <div id="contact-flexbox">
       <!-- div:first-child selects the following: -->
       <div>
-        <form>
+        <form id="contact-form" action="#">
           <label for="name">Name:</label>
-          <input type="text" id="name"/><br />
-          <input type="text"/><br />
-          <input type="text"/><br />
-          <textarea></textarea>
+          <input type="text" id="name"/>
+          <br />
+          <label for="email">Email:</label>
+          <input type="text" id="email"/>
+          <br />
+          <label for="subject">Subject:</label>
+          <input type="text" id="subject"/>
+          <br />
+          <label for="message">Message:</label><br />
+          <textarea id="message"></textarea>
+          <br />
+          <input class="form-buttons" type="reset"/>
+          <input class="form-buttons" type="submit"/>
         </form>
       </div>
       <!-- div:last-child selects the following: -->
-      <div></div>
+      <div>
+        <dl id="additional-info">
+          <dt>Address:</dt>
+          <dd>395 Post St., San Francisco, CA 94110</dd>
+          <dt>Email:</dt>
+          <dd>
+            <a href="mailto:really-posh@poshgallery.com">really-posh@poshgallery.com</a>
+          </dd>
+          <dt>Phone:</dt>
+          <dd>
+            <a href="tel:4157597674">(415)RLY-POSH</a>
+          </dd>
+        </dl>
+      </div>
     </div>
 
   </main>
