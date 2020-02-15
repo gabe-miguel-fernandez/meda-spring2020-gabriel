@@ -4,7 +4,7 @@ A.      Colors To Use
 
 My initial color design decision is to use mostly black and white in most of my pages because that's the simplest choice and probably the least aesthetically offensive to most people. The background will use a shade of white, whitesmoke, that should not be as bright or intense as standard white. The text will be black unless it's use for a link, and then it will appear as described below.
 
-The colors used for text with links will be one of four colors (red, orange, white or crimson) depending upon the state of the link (e.g., hovering and visited). For text-based links, the text color will change depending upon the link's state (hovering, unvisited, active or visited) as specified below. For icon-based link, the solid areas of the image will change per the link's state, but if that cannot be implemented, then the background color of the icon will change to reflect the link's state.
+The colors used for text with links will be one of four colors (red, orange, white or crimson) depending upon the state of the link (e.g., hovering and visited). For text-based links, the text color will change depending upon the link's state (hovering, unvisited, active or visited) as specified below. For icon-based links, the solid areas of the image will change per the link's state, but if that cannot be implemented, then the background color of the icon will change to reflect the link's state.
 
 A.1     Background Color(s)
 
@@ -12,19 +12,19 @@ A.1     Background Color(s)
 
 A.2.    Text Color(s)
 
-"Black" for content (or body text) and titles (or headers)
+"Black" for content (or body text) and titles (or headers).
 
 A.2.a.  Header Text Color(s)
 
-"Black" for content and titles
+"Black" for content (or body text) and titles (or headers).
 
 A.2.b.  Body Text Color(s)
 
-"Black" for content and titles
+"Black" for content (or body text) and titles (or headers).
 
 A.2.c.  Footer Text Color(s)
 
-"Black" for content and titles
+"Black" for content (or body text) and titles (or headers).
 
 A.2.d.  Link Text Color(s)
 
