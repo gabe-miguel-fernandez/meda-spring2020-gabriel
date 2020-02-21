@@ -1,0 +1,129 @@
+body {
+    background-color: whitesmoke;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+/* 
+ *  HEADER STYLES START
+ */
+#header {
+    margin: 20px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+}
+#header-content {
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    height: 150px;
+    margin: 20px;
+}
+#header-text {
+    margin: 25px;
+    text-align: center;
+}
+#header-photo img {
+    height: 150px;
+}
+#title h1 {
+    font-size: 48px;
+}
+#nav-links ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#nav-links ul li {
+    background-color: darkgray;
+    color: black;
+    font-weight: bolder;
+    margin: 25px;
+    padding: 20px;
+    text-align: center;
+}
+#nav-links ul li a:link {
+    color: teal;
+}
+#nav-links ul li a:visited {
+    color: orange;
+}
+#nav-links ul li a:hover {
+    color: red;
+}
+#nav-links ul li a:active {
+    color: lime;
+}
+/* 
+ *  HEADER STYLES END
+ */
+
+/* 
+ *  FOOTER STYLES START
+ */
+.fab {
+    color: black;
+    font-size: 48px;
+}
+#footer {
+    margin: 20px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+}
+#footer-content {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+#social-links ul {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    
+}
+#social-links ul li {
+    margin: 20px;
+}
+#social-links ul li a:link i {
+    color: teal;
+}
+#social-links ul li a:visited i {
+    color: orange;
+}
+#social-links ul li a:hover i {
+    color: red;
+}
+#social-links ul li a:active i {
+    color: lime;
+}
+#copyright p {
+    text-align: center;
+}
+
+/* 
+ *  FOOTER STYLES END
+ */
+
+/* MAIN DEFAULT STYLES - START */
+#main {
+    margin: 20px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+}
+/* MAIN DEFAULT STYLES - END */
+
+/* HOMEPAGE STYLE - START */
+
+/* HOMEPAGE STYLE - END */
+
+/* PROJECTS STYLE - START */
+
+/* PROJECTS STYLE - END */
+
+/* CONTACT STYLE - START */
+
+/* CONTACT STYLE - END */
