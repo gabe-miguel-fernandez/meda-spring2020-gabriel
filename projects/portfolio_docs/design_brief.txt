@@ -32,8 +32,8 @@ The color for the link's text will change to reflect the link's state as specifi
 
 * "Red" for hovering over link.
 * "Orange" for visited link.
-* "White" for unvisited link.
-* "Crimson" for active link.
+* "Teal" for unvisited link. (Originally "white"; see Change Log section for details.)
+* "Lime" for active link. (Originally "crimson"; see Change Log section for details.)
 
 A.3.    Link Icon Color(s)
 
@@ -41,8 +41,8 @@ The color of the link's icon will either have its solid area color or its backgr
 
 * "Red" for hovering over link.
 * "Orange" for visited link.
-* "White" for unvisited link.
-* "Crimson" for active link.
+* "Teal" for unvisited link. (Originally "white"; see Change Log section for details.)
+* "Lime" for active link. (Originally "crimson"; see Change Log section for details.)
 
 A.4.    Border Color
 
@@ -218,3 +218,16 @@ Body appears to be broken up into "fragment-*" classes that contain information 
 E.3.f.  Portfolio Website Three Footer
 
 "fragment-foot" class appears to be the footer that contains links to external social sites.
+
+F.  Change Log
+
+F.1. Changes on 20 Feb 2020
+
+F.1.a. Changed some colors of icon-based links to contrasting colors.
+
+I implemented these link colors as specified but I noticed that the "white" unvisited link color made the icon link invisible against a whitesmoke background. I changed the "unvisited" link color to teal for better contrast with background color. I found that the "red" and "crimson" colors specified were too similar to each other, so I changed link color for active link to lime.
+
+* "Red" for hovering over link.  (KEPT)
+* "Orange" for visited link. (KEPT)
+* "White" for unvisited link.  => Cannot see again whitesmoke background, so changed to teal.
+* "Crimson" for active link. => Crimson and red link colors are too similar, so changed active link color to lime.
