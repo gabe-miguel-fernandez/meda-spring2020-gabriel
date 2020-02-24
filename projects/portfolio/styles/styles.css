@@ -2,6 +2,18 @@ body {
     background-color: whitesmoke;
     font-family: Verdana, Geneva, sans-serif;
 }
+.page-header {
+    font-size: 48px;
+    font-weight: bold;
+    padding: 20px 20px 60px 20px;
+    text-align: center;
+}
+.section-header {
+    font-size: 32px;
+    font-weight: bold;
+    padding: 0 20px 10px 20px;
+    text-align: left;
+}
 
 /* 
  *  HEADER STYLES START
@@ -123,13 +135,7 @@ body {
  * HOMEPAGE STYLE - START
  */
 
-#home-page h1 {
-    font-size: 48px;
-    font-weight: bold;
-    padding: 20px;
-    text-align: center;
-}
-#home-page p {    
+ #home-page p {    
     font-size: 18px;
     padding: 24px;
 }
@@ -143,19 +149,6 @@ body {
  * PROJECTS STYLE - START
  */
 
-#projects h1 {
-    font-size: 48px;
-    font-weight: bold;
-    padding: 20px 20px 60px 20px;
-    text-align: center;
-}
-#projects h2 {
-    font-size: 32px;
-    font-weight: bold;
-
-    padding: 0 20px 10px 20px;
-    text-align: left;
-}
 #projects p {    
     font-size: 18px;
     padding: 0 24px 24px 24px;
@@ -167,12 +160,6 @@ body {
  * CONTACT STYLE - START
  */
 
-#contact h1 {
-    font-size: 48px;
-    font-weight: bold;
-    padding: 20px 20px 60px 20px;
-    text-align: center;
-}
 #contact-info {
     display: grid;
     grid-template-columns: 100px 200px;
@@ -195,18 +182,6 @@ body {
  * ABOUT STYLE - START
  */
 
-#aboutme h1 {
-    font-size: 48px;
-    font-weight: bold;
-    padding: 20px 20px 60px 20px;
-    text-align: center;
-}
-#aboutme h2 {
-    font-size: 32px;
-    font-weight: bold;
-    padding: 0 20px 10px 20px;
-    text-align: left;
-}
 #aboutme > p {    
     font-size: 18px;
     padding: 0 24px 24px 24px;
