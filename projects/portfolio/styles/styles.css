@@ -6,6 +6,7 @@ body {
 /* 
  *  HEADER STYLES START
  */
+
 #header {
     margin: 20px;
     border-width: 3px;
@@ -54,13 +55,13 @@ body {
 #nav-links ul li a:active {
     color: lime;
 }
-/* 
- *  HEADER STYLES END
- */
+
+/*  HEADER STYLES END */
 
 /* 
  *  FOOTER STYLES START
  */
+
 .fab {
     color: black;
     font-size: 48px;
@@ -103,27 +104,124 @@ body {
     text-align: center;
 }
 
+/*  FOOTER STYLES END */
+
 /* 
- *  FOOTER STYLES END
+ * MAIN DEFAULT STYLES - START
  */
 
-/* MAIN DEFAULT STYLES - START */
 #main {
     margin: 20px;
     border-width: 3px;
     border-style: solid;
     border-color: black;
 }
+
 /* MAIN DEFAULT STYLES - END */
 
-/* HOMEPAGE STYLE - START */
+/* 
+ * HOMEPAGE STYLE - START
+ */
+
+#home-page h1 {
+    font-size: 48px;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+}
+#home-page p {    
+    font-size: 18px;
+    padding: 24px;
+}
+#home-page br {
+    margin: 84px;
+}
 
 /* HOMEPAGE STYLE - END */
 
-/* PROJECTS STYLE - START */
+/* 
+ * PROJECTS STYLE - START
+ */
+
+#projects h1 {
+    font-size: 48px;
+    font-weight: bold;
+    padding: 20px 20px 60px 20px;
+    text-align: center;
+}
+#projects h2 {
+    font-size: 32px;
+    font-weight: bold;
+
+    padding: 0 20px 10px 20px;
+    text-align: left;
+}
+#projects p {    
+    font-size: 18px;
+    padding: 0 24px 24px 24px;
+}
 
 /* PROJECTS STYLE - END */
 
-/* CONTACT STYLE - START */
+/* 
+ * CONTACT STYLE - START
+ */
+
+#contact h1 {
+    font-size: 48px;
+    font-weight: bold;
+    padding: 20px 20px 60px 20px;
+    text-align: center;
+}
+#contact-info {
+    display: grid;
+    grid-template-columns: 100px 200px;
+    font-size: 18px;
+    padding: 0 24px 24px 24px;
+}
+#contact div {    
+    padding-bottom: 20px;
+}
+#contact div strong {    
+    font-weight: bold;
+}
+#contact-padding br {
+    margin: 60px;
+}
 
 /* CONTACT STYLE - END */
+
+/* 
+ * ABOUT STYLE - START
+ */
+
+#aboutme h1 {
+    font-size: 48px;
+    font-weight: bold;
+    padding: 20px 20px 60px 20px;
+    text-align: center;
+}
+#aboutme h2 {
+    font-size: 32px;
+    font-weight: bold;
+    padding: 0 20px 10px 20px;
+    text-align: left;
+}
+#aboutme > p {    
+    font-size: 18px;
+    padding: 0 24px 24px 24px;
+}
+#resume {
+    display: flex;
+}
+#resume-link {    
+    font-size: 18px;
+    padding-top: 10px;
+}
+#resume-title {    
+    font-size: 32px;
+    font-weight: bold;
+    padding: 0 24px 24px 24px;
+}
+
+/* ABOUT STYLE - END */
