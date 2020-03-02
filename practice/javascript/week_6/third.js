@@ -63,3 +63,15 @@ var roundedRandomNumber = Math.floor(randomNumber);
 // someNumber = Math.floor(someNumber);
 
 console.log(someNumber);
+
+// javascript 16; new keyword "let" - use instead of "var"
+let somevariable = 10;
+const FIXEDVARIABLE = "something";
+
+var variable1 = "10", variable2 = 100, variable3 = true;
+console.log(variable2);
+
+// reassign somevariable to value of 100, and then assign
+// value of 100 to coolVariable
+var coolVariable = somevariable = 100;
+console.log(coolVariable);
